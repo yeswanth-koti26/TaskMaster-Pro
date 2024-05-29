@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# TaskMaster Pro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TaskMaster Pro is a comprehensive project management application designed to help teams collaborate effectively and manage tasks efficiently. With features like user authentication, task assignment, commenting, and task status tracking, TaskMaster Pro ensures seamless teamwork and project execution. Built with a modern tech stack including React, Node.js, Express, and MongoDB, this application is perfect for showcasing full-stack development skills.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User Authentication**: Secure user registration and login with JWT authentication.
+- **Task Management**: Create, update, and delete tasks.
+- **Task Assignment**: Assign tasks to team members.
+- **Commenting**: Add comments to tasks for better collaboration.
+- **Task Status Tracking**: Track the status of tasks from creation to completion.
+- **Responsive Design**: Fully responsive design for a great user experience on all devices.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React, Axios, React Router, CSS
+- **Backend**: Node.js, Express, MongoDB
+- **Authentication**: JWT (JSON Web Token)
+- **Styling**: CSS, Responsive Design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js and npm installed
+- MongoDB instance running (local or cloud)
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/yeswanth-koti26/taskmaster-pro.git
+    cd taskmaster-pro
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install backend dependencies**:
+    ```sh
+    cd backend
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install frontend dependencies**:
+    ```sh
+    cd ../frontend
+    npm install
+    ```
 
-### `npm run eject`
+4. **Set up environment variables**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Create a `.env` file in the `backend` directory and add your MongoDB connection string and JWT secret:
+    ```env
+    MONGO_URI=your_mongodb_connection_string
+    JWT_SECRET=your_jwt_secret
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Running the Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Run the backend server**:
+    ```sh
+    cd backend
+    npm run dev
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Run the frontend development server**:
+    ```sh
+    cd ../frontend
+    npm start
+    ```
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Register a new user** and login.
+- **Create and assign tasks** to team members.
+- **Add comments** to tasks for better collaboration.
+- **Track task status** from creation to completion.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+Contributions are welcome! Please fork the repository and submit a pull request for any changes. Make sure to follow the project's coding guidelines and standards.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgements
 
-### Making a Progressive Web App
+- Thanks to the developers and contributors of the libraries and frameworks used in this project.
+- Special thanks to the open-source community for providing valuable resources and support.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built with ❤️ by [yeswanth-koti26](https://github.com/yeswanth-koti26)
