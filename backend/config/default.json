@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://photoskoti224:project267@cluster0.u1t8xte.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "jwtSecret": "mySuperSecretKey12345"
+}
